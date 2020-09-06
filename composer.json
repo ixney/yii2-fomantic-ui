@@ -1,34 +1,38 @@
 {
-    "name": "zelenin/yii2-semantic-ui",
-    "description": "Semantic UI extension for Yii2",
+    "name": "icms/yii2-fomantic-ui",
+    "description": "Fomantic UI extension for Yii2",
     "type": "yii2-extension",
     "keywords": [
         "yii2",
         "widgets",
-        "semantic",
-        "semantic ui"
+        "fomantic ui"
     ],
-    "homepage": "https://github.com/zelenin/yii2-semantic-ui",
+    "homepage": "https://github.com/seaeagle1/yii2-fomantic-ui",
     "license": "MIT",
     "authors": [
+        {
+            "name": "Ilmar Kruis",
+            "email": "seaeagle1@users.sourceforge.net",
+            "role": "Developer"
+        },
         {
             "name": "Aleksandr Zelenin",
             "email": "aleksandr@zelenin.me",
             "homepage": "http://zelenin.me",
-            "role": "Developer"
+            "role": "Original Developer"
         }
     ],
     "support": {
-        "issues": "https://github.com/zelenin/yii2-semantic-ui/issues",
-        "source": "https://github.com/zelenin/yii2-semantic-ui"
+        "issues": "https://github.com/seaeagle1/yii2-fomantic-ui/issues",
+        "source": "https://github.com/seaeagle1/yii2-fomantic-ui"
     },
     "require": {
         "yiisoft/yii2": "~2",
-        "bower-asset/semantic-ui": "~2"
+        "fomantic/ui": "~2"
     },
     "autoload": {
         "psr-4": {
-            "Zelenin\\yii\\SemanticUI\\": ""
+            "icms\\FomanticUI\\": ""
         }
     }
 }
