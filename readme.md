@@ -1,10 +1,10 @@
-# Yii2 Semantic UI extension
+# Yii2 Fomantic UI extension
 
-[Semantic UI](http://semantic-ui.com) extension for [Yii2](http://www.yiiframework.com)
+[Fomantic UI](http://fomantic-ui.com) extension for [Yii2](http://www.yiiframework.com)
 
 ## Installation
 
-yii2-semantic-ui 2.* works with Semantic UI 2.*
+yii2-fomantic-ui 2.* works with Fomantic UI 2.*
 
 ### Composer
 
@@ -13,13 +13,13 @@ The preferred way to install this extension is through [Composer](http://getcomp
 Either run
 
 ```
-php composer.phar require zelenin/yii2-semantic-ui "~2"
+php composer.phar require icms/yii2-fomantic-ui "~2"
 ```
 
 or add
 
 ```
-"zelenin/yii2-semantic-ui": "~2"
+"icms/yii2-fomantic-ui": "~2"
 ```
 
 to the require section of your ```composer.json```
@@ -63,6 +63,9 @@ Yii::$container->set(\yii\grid\CheckboxColumn::className(), \Zelenin\yii\Semanti
 
 Be very careful with it.
 
-## Author
+## Credits
 
+[Github repository](https://github.com/seaeagle1/yii2-fomantic-ui)
+
+Derived from the Yii2-Semantic-UI packages by
 [Aleksandr Zelenin](https://github.com/zelenin/), e-mail: [aleksandr@zelenin.me](mailto:aleksandr@zelenin.me)
