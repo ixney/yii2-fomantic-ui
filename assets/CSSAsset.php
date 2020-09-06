@@ -10,7 +10,7 @@ class CSSAsset extends AssetBundle
     /**
      * @var string
      */
-    public $sourcePath = '@fomantic/ui/dist';
+    public $sourcePath = '@vendor/fomantic/ui/dist';
 
     public function init()
     {

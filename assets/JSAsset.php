@@ -10,7 +10,7 @@ class JSAsset extends AssetBundle
     /**
      * @var string
      */
-    public $sourcePath = '@fomantic/ui/dist';
+    public $sourcePath = '@vendor/fomantic/ui/dist';
 
     /**
      * @var array
