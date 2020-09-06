@@ -1,16 +1,16 @@
 <?php
 
-namespace Zelenin\yii\SemanticUI\assets;
+namespace icms\FomanticUI\assets;
 
 use Yii;
 use yii\web\AssetBundle;
 
-class SemanticUICSSAsset extends AssetBundle
+class CSSAsset extends AssetBundle
 {
     /**
      * @var string
      */
-    public $sourcePath = '@bower/semantic-ui/dist';
+    public $sourcePath = '@fomantic/ui/dist';
 
     public function init()
     {

@@ -1,12 +1,12 @@
 <?php
 
-namespace Zelenin\yii\SemanticUI\widgets;
+namespace icms\FomanticUI\widgets;
 
 use yii\helpers\Html;
 
 class ActiveForm extends \yii\widgets\ActiveForm
 {
-    public $fieldClass = 'Zelenin\yii\SemanticUI\widgets\ActiveField';
+    public $fieldClass = 'icms\FomanticUI\widgets\ActiveField';
     public $options = ['class' => 'ui form'];
     public $errorCssClass = 'error';
     public $successCssClass = 'success';

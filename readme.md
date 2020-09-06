@@ -44,7 +44,7 @@ class AppAsset extends AssetBundle
     public $depends = [
         'yii\web\YiiAsset',
         'yii\web\JqueryAsset',
-        'Zelenin\yii\SemanticUI\assets\SemanticUICSSAsset'
+        'icms\FomanticUI\assets\SemanticUICSSAsset'
     ];
 }
 ```
@@ -54,11 +54,11 @@ Use Semantic UI widgets and elements. Standard Yii2 widgets also adopted.
 You may replace yii2 standard widgets. Write in bootstrap.php:
 
 ```php
-Yii::$container->set(\yii\grid\GridView::className(), \Zelenin\yii\SemanticUI\widgets\GridView::className());
-Yii::$container->set(\yii\widgets\ActiveForm::className(), \Zelenin\yii\SemanticUI\widgets\ActiveForm::className());
-Yii::$container->set(\yii\bootstrap\ActiveForm::className(), \Zelenin\yii\SemanticUI\widgets\ActiveForm::className());
-Yii::$container->set(\yii\widgets\Breadcrumbs::className(), \Zelenin\yii\SemanticUI\collections\Breadcrumb::className());
-Yii::$container->set(\yii\grid\CheckboxColumn::className(), \Zelenin\yii\SemanticUI\widgets\CheckboxColumn::className());
+Yii::$container->set(\yii\grid\GridView::className(), \icms\FomanticUI\widgets\GridView::className());
+Yii::$container->set(\yii\widgets\ActiveForm::className(), \icms\FomanticUI\widgets\ActiveForm::className());
+Yii::$container->set(\yii\bootstrap\ActiveForm::className(), \icms\FomanticUI\widgets\ActiveForm::className());
+Yii::$container->set(\yii\widgets\Breadcrumbs::className(), \icms\FomanticUI\collections\Breadcrumb::className());
+Yii::$container->set(\yii\grid\CheckboxColumn::className(), \icms\FomanticUI\widgets\CheckboxColumn::className());
 ```
 
 Be very careful with it.

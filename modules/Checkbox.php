@@ -1,11 +1,11 @@
 <?php
 
-namespace Zelenin\yii\SemanticUI\modules;
+namespace icms\FomanticUI\modules;
 
 use Yii;
 use yii\helpers\Html;
 use yii\helpers\Json;
-use Zelenin\yii\SemanticUI\InputWidget;
+use icms\FomanticUI\InputWidget;
 
 class Checkbox extends InputWidget
 {

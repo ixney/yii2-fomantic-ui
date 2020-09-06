@@ -1,8 +1,8 @@
 <?php
 
-namespace Zelenin\yii\SemanticUI;
+namespace icms\FomanticUI;
 
-use Zelenin\yii\SemanticUI\assets\SemanticUIJSAsset;
+use icms\FomanticUI\assets\FomanticUIJSAsset;
 
 class InputWidget extends \yii\widgets\InputWidget
 {
@@ -26,6 +26,6 @@ class InputWidget extends \yii\widgets\InputWidget
 
     public function registerJsAsset()
     {
-        SemanticUIJSAsset::register($this->getView());
+        FomanticUIJSAsset::register($this->getView());
     }
 }

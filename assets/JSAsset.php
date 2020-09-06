@@ -1,23 +1,23 @@
 <?php
 
-namespace Zelenin\yii\SemanticUI\assets;
+namespace icms\FomanticUI\assets;
 
 use Yii;
 use yii\web\AssetBundle;
 
-class SemanticUIJSAsset extends AssetBundle
+class JSAsset extends AssetBundle
 {
     /**
      * @var string
      */
-    public $sourcePath = '@bower/semantic-ui/dist';
+    public $sourcePath = '@fomantic/ui/dist';
 
     /**
      * @var array
      */
     public $depends = [
         'yii\web\JqueryAsset',
-        'Zelenin\yii\SemanticUI\assets\SemanticUICSSAsset'
+        'icms\FomanticUI\assets\CSSAsset'
     ];
 
     public function init()

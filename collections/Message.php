@@ -1,11 +1,11 @@
 <?php
 
-namespace Zelenin\yii\SemanticUI\collections;
+namespace icms\FomanticUI\collections;
 
 use Yii;
 use yii\helpers\Html;
-use Zelenin\yii\SemanticUI\Elements;
-use Zelenin\yii\SemanticUI\Widget;
+use icms\FomanticUI\Elements;
+use icms\FomanticUI\Widget;
 
 class Message extends Widget
 {

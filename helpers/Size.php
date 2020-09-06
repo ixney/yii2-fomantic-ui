@@ -1,6 +1,6 @@
 <?php
 
-namespace Zelenin\yii\SemanticUI\helpers;
+namespace icms\FomanticUI\helpers;
 
 class Size
 {

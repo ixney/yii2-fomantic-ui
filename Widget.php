@@ -1,8 +1,8 @@
 <?php
 
-namespace Zelenin\yii\SemanticUI;
+namespace icms\FomanticUI;
 
-use Zelenin\yii\SemanticUI\assets\SemanticUIJSAsset;
+use icms\FomanticUI\assets\JSAsset;
 
 class Widget extends \yii\base\Widget
 {
@@ -26,6 +26,6 @@ class Widget extends \yii\base\Widget
 
     public function registerJsAsset()
     {
-        SemanticUIJSAsset::register($this->getView());
+        JSAsset::register($this->getView());
     }
 }

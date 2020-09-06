@@ -1,12 +1,12 @@
 <?php
 
-namespace Zelenin\yii\SemanticUI\modules;
+namespace icms\FomanticUI\modules;
 
 use Yii;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
 use yii\helpers\Json;
-use Zelenin\yii\SemanticUI\Widget;
+use icms\FomanticUI\Widget;
 
 class Tab extends Widget
 {
