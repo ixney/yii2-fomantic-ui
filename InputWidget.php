@@ -2,7 +2,7 @@
 
 namespace icms\FomanticUI;
 
-use icms\FomanticUI\assets\FomanticUIJSAsset;
+use icms\FomanticUI\assets\JSAsset;
 
 class InputWidget extends \yii\widgets\InputWidget
 {
@@ -26,6 +26,6 @@ class InputWidget extends \yii\widgets\InputWidget
 
     public function registerJsAsset()
     {
-        FomanticUIJSAsset::register($this->getView());
+        JSAsset::register($this->getView());
     }
 }
