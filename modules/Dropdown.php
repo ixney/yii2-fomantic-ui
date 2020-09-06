@@ -110,9 +110,25 @@ class Dropdown extends InputWidget
      */
     public function renderHiddenInput()
     {
-        return $this->hasModel()
-            ? Html::activeHiddenInput($this->model, $this->attribute, [])
-            : Html::hiddenInput($this->name, $this->selection, []);
+        if($this->multiple === true)
+        {
+            if($this->hasModel())
+                $value = Html::getAttributeValue($this->model, $this->attribute);
+            else
+                $value = $this->selection;
+
+            if(is_array($value))
+                $value = implode(',', $value);
+
+            return $this->hasModel()
+                ? Html::activeHiddenInput($this->model, $this->attribute, ['value'=>$value])
+                : Html::hiddenInput($this->name, $value, []);
+
+        } else {
+            return $this->hasModel()
+                ? Html::activeHiddenInput($this->model, $this->attribute, [])
+                : Html::hiddenInput($this->name, $this->selection, []);
+        }
     }
 
     /**

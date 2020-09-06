@@ -5,6 +5,7 @@ namespace icms\FomanticUI\collections;
 use Yii;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
+use yii\helpers\Url;
 use icms\FomanticUI\Widget;
 
 class Breadcrumb extends Widget
@@ -41,14 +42,25 @@ class Breadcrumb extends Widget
      */
     public $size;
 
+    private $count_level = 1;
+
+    public function init()
+    {
+        parent::init();
+        if($this->homeLink === null)
+            $this->homeLink = ['label'=>Yii::t('yii', 'Home'), 'url' =>['/']];
+    }
+
     public function run()
     {
         Html::addCssClass($this->options, 'ui breadcrumb');
         if ($this->size) {
             Html::addCssClass($this->options, $this->size);
         }
+        $this->options['vocab'] = 'https://schema.org';
+        $this->options['typeof'] = 'BreadcrumbList';
 
-        echo Html::tag('div', $this->renderItems(), $this->options);
+        echo Html::tag('ol', $this->renderItems(), $this->options);
     }
 
     /**
@@ -99,13 +111,27 @@ class Breadcrumb extends Widget
 
         $options = ArrayHelper::getValue($item, 'options', $this->itemOptions);
         Html::addCssClass($options, 'section');
+        $options['typeof'] = 'ListItem';
+        $options['property'] = 'itemListElement';
+
+        $a_options = array();
+        $a_options['typeof'] = 'WebPage';
+        $a_options['property'] = 'item';
+
+        $l_options = array();
+        $l_options['property'] = 'name';
 
         if (isset($item['url'])) {
-            $link = Html::a($item['label'], $item['url'], $options);
+            $name = Html::tag('span', $item['label'], ['property'=>'name']);
+            $link = Html::a($name, Url::to($item['url'], true), $a_options);
+            $link .= Html::tag('meta','',['property'=>'position','content'=>$this->count_level++]);
         } else {
-            Html::addCssClass($options, 'active');
-            $link = Html::tag('div', $item['label'], $options);
+            Html::addCssClass($l_options, 'active');
+            $link = Html::tag('div', $item['label'], $l_options);
+            $link .= Html::tag('meta','',['property'=>'position','content'=>$this->count_level++]);
         }
+        $link = Html::tag('li', $link, $options);
+
         return $link;
     }
 }
