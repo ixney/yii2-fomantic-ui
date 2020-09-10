@@ -26,7 +26,7 @@ to the require section of your ```composer.json```
 
 ## Usage
 
-Add SemanticUICSSAsset to AppAsset:
+Add CSSAsset to AppAsset:
 
 ```php
 <?php
@@ -44,7 +44,7 @@ class AppAsset extends AssetBundle
     public $depends = [
         'yii\web\YiiAsset',
         'yii\web\JqueryAsset',
-        'icms\FomanticUI\assets\SemanticUICSSAsset'
+        'icms\FomanticUI\assets\CSSAsset'
     ];
 }
 ```
@@ -54,11 +54,11 @@ Use Semantic UI widgets and elements. Standard Yii2 widgets also adopted.
 You may replace yii2 standard widgets. Write in bootstrap.php:
 
 ```php
-Yii::$container->set(\yii\grid\GridView::className(), \icms\FomanticUI\widgets\GridView::className());
-Yii::$container->set(\yii\widgets\ActiveForm::className(), \icms\FomanticUI\widgets\ActiveForm::className());
-Yii::$container->set(\yii\bootstrap\ActiveForm::className(), \icms\FomanticUI\widgets\ActiveForm::className());
-Yii::$container->set(\yii\widgets\Breadcrumbs::className(), \icms\FomanticUI\collections\Breadcrumb::className());
-Yii::$container->set(\yii\grid\CheckboxColumn::className(), \icms\FomanticUI\widgets\CheckboxColumn::className());
+Yii::$container->set(\yii\grid\GridView::class, \icms\FomanticUI\widgets\GridView::class);
+Yii::$container->set(\yii\widgets\ActiveForm::class, \icms\FomanticUI\widgets\ActiveForm::class);
+Yii::$container->set(\yii\bootstrap\ActiveForm::class, \icms\FomanticUI\widgets\ActiveForm::class);
+Yii::$container->set(\yii\widgets\Breadcrumbs::class, \icms\FomanticUI\collections\Breadcrumb::class);
+Yii::$container->set(\yii\grid\CheckboxColumn::class, \icms\FomanticUI\widgets\CheckboxColumn::class);
 ```
 
 Be very careful with it.
