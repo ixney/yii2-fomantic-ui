@@ -13,13 +13,13 @@ The preferred way to install this extension is through [Composer](http://getcomp
 Either run
 
 ```
-php composer.phar require icms/yii2-fomantic-ui "~2"
+php composer.phar require imaginary/yii2-fomantic-ui "~2"
 ```
 
 or add
 
 ```
-"icms/yii2-fomantic-ui": "~2"
+"imaginary/yii2-fomantic-ui": "~2"
 ```
 
 to the require section of your ```composer.json```
