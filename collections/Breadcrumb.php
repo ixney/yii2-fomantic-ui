@@ -34,7 +34,7 @@ class Breadcrumb extends Widget
      * @var string
      */
     public $divider = self::DIVIDER_NORMAL;
-    const DIVIDER_NORMAL = ' <div class="divider"> / </div> ';
+    const DIVIDER_NORMAL = ' <li class="divider"> / </li> ';
     const DIVIDER_CHEVRON = ' <i class="right chevron icon divider"></i> ';
 
     /**
