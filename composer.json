@@ -1,5 +1,5 @@
 {
-    "name": "imaginary/yii2-fomantic-ui",
+    "name": "ixney/yii2-fomantic-ui",
     "description": "Fomantic UI extension for Yii2",
     "type": "yii2-extension",
     "keywords": [
@@ -29,6 +29,10 @@
     "require": {
         "yiisoft/yii2": "~2",
         "fomantic/ui": "~2"
+    }
+    ,
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
     },
     "autoload": {
         "psr-4": {
