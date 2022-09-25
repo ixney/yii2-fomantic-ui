@@ -1,10 +1,10 @@
 <?php
 
-namespace icms\FomanticUI\widgets;
+namespace ixney\FomanticUI\widgets;
 
 use yii\helpers\Html;
 use yii\helpers\Inflector;
-use icms\FomanticUI\Elements;
+use ixney\FomanticUI\Elements;
 
 class Pjax extends \yii\widgets\Pjax
 {

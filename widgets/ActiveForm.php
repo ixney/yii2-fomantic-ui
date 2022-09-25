@@ -1,12 +1,12 @@
 <?php
 
-namespace icms\FomanticUI\widgets;
+namespace ixney\FomanticUI\widgets;
 
 use yii\helpers\Html;
 
 class ActiveForm extends \yii\widgets\ActiveForm
 {
-    public $fieldClass = 'icms\FomanticUI\widgets\ActiveField';
+    public $fieldClass = 'ixney\FomanticUI\widgets\ActiveField';
     public $options = ['class' => 'ui form'];
     public $errorCssClass = 'error';
     public $successCssClass = 'success';

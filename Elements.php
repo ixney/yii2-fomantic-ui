@@ -1,6 +1,6 @@
 <?php
 
-namespace icms\FomanticUI;
+namespace ixney\FomanticUI;
 
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;

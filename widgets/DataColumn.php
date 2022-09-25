@@ -1,11 +1,11 @@
 <?php
 
-namespace icms\FomanticUI\widgets;
+namespace ixney\FomanticUI\widgets;
 
 use yii\base\Model;
 use yii\helpers\Html;
-use icms\FomanticUI\Elements;
-use icms\FomanticUI\modules\Select;
+use ixney\FomanticUI\Elements;
+use ixney\FomanticUI\modules\Select;
 
 class DataColumn extends \yii\grid\DataColumn
 {

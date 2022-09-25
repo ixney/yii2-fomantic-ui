@@ -1,6 +1,6 @@
 <?php
 
-namespace icms\FomanticUI\assets;
+namespace ixney\FomanticUI\assets;
 
 use Yii;
 use yii\web\AssetBundle;
@@ -17,7 +17,7 @@ class JSAsset extends AssetBundle
      */
     public $depends = [
         'yii\web\JqueryAsset',
-        'icms\FomanticUI\assets\CSSAsset'
+        'ixney\FomanticUI\assets\CSSAsset'
     ];
 
     public function init()

@@ -1,8 +1,8 @@
 <?php
 
-namespace icms\FomanticUI;
+namespace ixney\FomanticUI;
 
-use icms\FomanticUI\assets\JSAsset;
+use ixney\FomanticUI\assets\JSAsset;
 
 class Widget extends \yii\base\Widget
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace icms\FomanticUI\collections;
+namespace ixney\FomanticUI\collections;
 
 use Yii;
 use yii\helpers\Html;
-use icms\FomanticUI\Elements;
-use icms\FomanticUI\Widget;
+use ixney\FomanticUI\Elements;
+use ixney\FomanticUI\Widget;
 
 class Message extends Widget
 {

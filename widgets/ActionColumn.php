@@ -1,10 +1,10 @@
 <?php
 
-namespace icms\FomanticUI\widgets;
+namespace ixney\FomanticUI\widgets;
 
 use Yii;
 use yii\helpers\Html;
-use icms\FomanticUI\Elements;
+use ixney\FomanticUI\Elements;
 
 class ActionColumn extends \yii\grid\ActionColumn
 {

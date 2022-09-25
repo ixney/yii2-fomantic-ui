@@ -1,11 +1,11 @@
 <?php
 
-namespace icms\FomanticUI\modules;
+namespace ixney\FomanticUI\modules;
 
 use yii\helpers\Html;
 use yii\helpers\Json;
 use yii\web\View;
-use icms\FomanticUI\Widget;
+use ixney\FomanticUI\Widget;
 
 class Embed extends Widget
 {

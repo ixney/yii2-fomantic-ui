@@ -1,13 +1,13 @@
 <?php
 
-namespace icms\FomanticUI\widgets;
+namespace ixney\FomanticUI\widgets;
 
 use Closure;
 use Exception;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Json;
 use yii\web\JsExpression;
-use icms\FomanticUI\modules\Checkbox;
+use ixney\FomanticUI\modules\Checkbox;
 
 class CheckboxColumn extends \yii\grid\CheckboxColumn
 {

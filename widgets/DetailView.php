@@ -1,6 +1,6 @@
 <?php
 
-namespace icms\FomanticUI\widgets;
+namespace ixney\FomanticUI\widgets;
 
 class DetailView extends \yii\widgets\DetailView
 {

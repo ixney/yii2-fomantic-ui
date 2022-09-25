@@ -1,12 +1,12 @@
 <?php
 
-namespace icms\FomanticUI\modules;
+namespace ixney\FomanticUI\modules;
 
 use Yii;
 use yii\helpers\Html;
 use yii\helpers\Json;
 use yii\web\View;
-use icms\FomanticUI\InputWidget;
+use ixney\FomanticUI\InputWidget;
 
 class Select extends InputWidget
 {

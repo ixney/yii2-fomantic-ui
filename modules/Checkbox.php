@@ -1,11 +1,11 @@
 <?php
 
-namespace icms\FomanticUI\modules;
+namespace ixney\FomanticUI\modules;
 
 use Yii;
 use yii\helpers\Html;
 use yii\helpers\Json;
-use icms\FomanticUI\InputWidget;
+use ixney\FomanticUI\InputWidget;
 
 class Checkbox extends InputWidget
 {

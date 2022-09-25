@@ -1,6 +1,6 @@
 <?php
 
-namespace icms\FomanticUI\helpers;
+namespace ixney\FomanticUI\helpers;
 
 class Color
 {

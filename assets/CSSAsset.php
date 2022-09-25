@@ -1,6 +1,6 @@
 <?php
 
-namespace icms\FomanticUI\assets;
+namespace ixney\FomanticUI\assets;
 
 use Yii;
 use yii\web\AssetBundle;

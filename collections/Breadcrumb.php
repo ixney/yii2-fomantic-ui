@@ -1,12 +1,12 @@
 <?php
 
-namespace icms\FomanticUI\collections;
+namespace ixney\FomanticUI\collections;
 
 use Yii;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
 use yii\helpers\Url;
-use icms\FomanticUI\Widget;
+use ixney\FomanticUI\Widget;
 
 class Breadcrumb extends Widget
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace icms\FomanticUI\widgets;
+namespace ixney\FomanticUI\widgets;
 
 class GridView extends \yii\grid\GridView
 {
@@ -12,10 +12,10 @@ class GridView extends \yii\grid\GridView
     /**
      * @var string
      */
-    public $dataColumnClass = 'icms\FomanticUI\widgets\DataColumn';
+    public $dataColumnClass = 'ixney\FomanticUI\widgets\DataColumn';
 
     /**
      * @var array
      */
-    public $pager = ['class' => 'icms\FomanticUI\widgets\LinkPager'];
+    public $pager = ['class' => 'ixney\FomanticUI\widgets\LinkPager'];
 }

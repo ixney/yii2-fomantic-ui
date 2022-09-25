@@ -1,14 +1,14 @@
 <?php
 
-namespace icms\FomanticUI\widgets;
+namespace ixney\FomanticUI\widgets;
 
 use Yii;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
-use icms\FomanticUI\modules\Checkbox;
-use icms\FomanticUI\modules\CheckboxList;
-use icms\FomanticUI\modules\Dropdown;
-use icms\FomanticUI\modules\RadioList;
+use ixney\FomanticUI\modules\Checkbox;
+use ixney\FomanticUI\modules\CheckboxList;
+use ixney\FomanticUI\modules\Dropdown;
+use ixney\FomanticUI\modules\RadioList;
 
 class ActiveField extends \yii\widgets\ActiveField
 {
